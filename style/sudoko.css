@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/bodybackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* height: 100vh; */
+}
+.time{
+    color: rgb(189, 237, 189);
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0 auto;
+}
+.backcolor{
+    background-color: rgb(3, 25, 67);
+    color: whitesmoke;
+}
+.smallbox{
+    width: 87px;
+    height: 87.5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 5px; */
+
+}
+.hide{
+    display: none !important;
+}
+.board{
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.playcards4{
+    margin: 0 auto!important;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.login{
+    height: 45vh;
+    width: 40vw;
+    box-shadow: rgb(243, 218, 185) 3rem 3rem 15rem inset;
+    border-radius: 1rem;
+}
+.cards{
+    border: 1px solid gray;
+    box-shadow: lightgray 10px 10px 75px inset;
+    margin: 0.5rem auto;
+    border-radius: 1rem;   
+}
+.cards img{
+    width: 100px;
+    height: 100px;
+}
+.moving{
+    width: 50px;
+    height: 50px;
+}
+.boxes9{
+    width:50px;
+    height: 55px;
+    border: 1px solid rgb(220, 236, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigBoard{
+  width: 800px;
+  /* height: px; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  /* margin-top: 5rem; */
+  /* margin-bottom: 2rem; */
+}
+.boxes9 img{
+    width: 50px !important;
+    height: 41px !important;
+    object-fit: cover;
+}
+.smallbox img{
+    width: 100px;
+    height: 81px;
+    object-fit: cover;
+}
